@@ -47,6 +47,8 @@ if (currentTheme) {
     }
 }
 
-$('.map_embed').on('mouseenter mouseleave', function () {
-    $(this).siblings('.map_embed').find('.province').toggleClass('nearProvinces');
-});
+// query for cafe intro section
+
+function imgSlider(cafeImg) {
+    document.querySelector('.jeju-cafe-pic').src = cafeImg;
+}

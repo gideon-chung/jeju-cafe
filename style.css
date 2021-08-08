@@ -343,5 +343,34 @@ input:checked + .slider::before {
 }
 
 .content .imgBox {
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.content .imgBox img {
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 5px 10px 20px var(--on-background);
+}
+
+.coffee-icon {
+  padding: 0;
+  transform: translateY(70px);
+  display: flex;
+}
+
+.coffee-icon li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.coffee-icon li:hover {
+  transform: translateY(-15px);
+}
+
+.coffee-icon li img {
+  max-width: 40px;
+  max-height: 60px;
 }
