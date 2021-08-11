@@ -66,14 +66,16 @@ function imgSlider(cafeImg) {
 
 cafe1.addEventListener('click', function() {
     cafeText.innerHTML = "about cafe 1";
-    cafeLink.setAttribute('href', "http://google.com");
+    cafeLink.setAttribute('href', "https://www.instagram.com/sumnsome_jeju/");
 });
 
 cafe2.addEventListener('click', function() {
     cafeText.innerHTML = "about cafe 2";
+    cafeLink.setAttribute('href', "https://www.jejubomnal.com/");
 });
 
 cafe3.addEventListener('click', function() {
     cafeText.innerHTML = "about cafe 3";
+    cafeLink.setAttribute('href', "https://www.instagram.com/groov.jeju/");
 });
 
