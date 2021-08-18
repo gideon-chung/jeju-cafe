@@ -374,3 +374,50 @@ input:checked + .slider::before {
   max-width: 40px;
   max-height: 60px;
 }
+
+/* Cover JeJu Cafe Animation */
+
+.cover {
+  font-size: 10em;
+}
+
+.cover span {
+  transition: 1.5s;
+}
+
+.cover:hover span {
+  filter: blur(20px);
+  opacity: 0;
+  transform: scale(2);
+}
+
+.cover span:nth-child(10n+1){
+  transition-delay: 0s;
+}
+.cover span:nth-child(10n+2){
+  transition-delay: 0.1s;
+}
+.cover span:nth-child(10n+3){
+  transition-delay: 0.2s;
+}
+.cover span:nth-child(10n+4){
+  transition-delay: 0.3s;
+}
+.cover span:nth-child(10n+5){
+  transition-delay: 0.4s;
+}
+.cover span:nth-child(10n+6){
+  transition-delay: 0.5s;
+}
+.cover span:nth-child(10n+7){
+  transition-delay: 0.6s;
+}
+.cover span:nth-child(10n+8){
+  transition-delay: 0.7s;
+}
+.cover span:nth-child(10n+9){
+  transition-delay: 0.8s;
+}
+.cover span:nth-child(10n+10){
+  transition-delay: 0.9s;
+}
