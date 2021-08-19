@@ -65,17 +65,17 @@ function imgSlider(cafeImg) {
 
 
 cafe1.addEventListener('click', function() {
-    cafeText.innerHTML = "about cafe 1";
+    cafeText.innerHTML = "This is a place where you can see the sea Aewol while sipping on your cup of coffee. It also has a roof-top so you can sit outside and enjoy the scenery. What makes them so special is the fact that they have their own natural fermentation species for bread so you can taste their unique flavor of breads.";
     cafeLink.setAttribute('href', "https://www.instagram.com/sumnsome_jeju/");
 });
 
 cafe2.addEventListener('click', function() {
-    cafeText.innerHTML = "about cafe 2";
+    cafeText.innerHTML = "A cafe that was shown on Korean show called Warm and Cozy is also a great place to visit. They have a big white coffee cup on top of their building and that is a trade mark for them. And also a romantice ocean view terrace is great addition to the cafe. You will not regret going to this place!";
     cafeLink.setAttribute('href', "https://www.jejubomnal.com/");
 });
 
 cafe3.addEventListener('click', function() {
-    cafeText.innerHTML = "about cafe 3";
+    cafeText.innerHTML = "Cafe Groove is placed in Hyeopjae Beach. This cafe is created by chefs and marketers from New York. You can certainly feel the American style interior combined with the feel of Jeju. This exquisite place has the signature desserts: crodog and croffle. With these awesome desserts you will definitely feel the groove";
     cafeLink.setAttribute('href', "https://www.instagram.com/groov.jeju/");
 });
 
