@@ -378,7 +378,7 @@ input:checked + .slider::before {
 /* Cover JeJu Cafe Animation */
 
 .cover {
-  font-size: 10em;
+  font-size: 9em;
 }
 
 .cover span {
