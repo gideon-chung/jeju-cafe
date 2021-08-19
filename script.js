@@ -4,7 +4,7 @@ const toggleIcon = document.getElementById('toggle-icon');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
-const textBox = document.getElementById('text-box');
+//const textBox = document.getElementById('cafe-text');
 
 // cafe introsection
 const coffeeImage = document.querySelector('.coffee-icon');
@@ -24,7 +24,7 @@ function imageMode(color) {
 
 function toggleDarkLightMode(isDark) {
     nav.style.backgroundColor = isDark ? 'rgb(0 0 0 / 50%)' : 'rgb(255 255 255 / 50%)';
-    textBox.style.backgroundColor = isDark ? 'rgb(255 255 255 / 50%)' : 'rgb(0 0 0 / 50%)';
+    //textBox.style.backgroundColor = isDark ? 'rgb(255 255 255 / 50%)' : 'rgb(0 0 0 / 50%)';
     coffeeImage.style.filter = isDark ? 'invert(100%)' : 'invert(0)';
     isDark ? toggleIcon.children[0].classList.replace('fa-sun', 'fa-moon') : toggleIcon.children[0].classList.replace('fa-moon', 'fa-sun');
     isDark ? imageMode('dark') : imageMode('light');
