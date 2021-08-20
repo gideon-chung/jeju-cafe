@@ -25,27 +25,11 @@
     </div>
     <!-- Navigation -->
     <nav id="nav" data-aos="fade-in" data-aos-delay="2000">
-        <a href="#home">HOME</a>
-        <a href="#title">TITLE</a>
+        <a href="#title">HOME</a>
+        <a href="#about">ABOUT</a>
         <a href="#cafes">CAFE</a>
         <a href="#contact">CONTACT</a>
     </nav>
-    <!-- Home Section -->
-    <section id="home">
-        <div class="title-group" style='text-align: left;' data-aos="fade-up" data-aos-duration="3000">
-            <!-- <h1>Cafe</h1> -->
-            <span style="font-family: Kaushan Script, sans-serif; font-size: 5em; margin-bottom: 0;">Café</span>
-            <span style="font-family: Kaushan Script, sans-serif; font-size: 3em; margin-bottom: 0;">(café, 카페)</span>
-            <h2>1. a small restaurant selling light meals and drinks.</h2>
-            <h2>2. a bar or nightclub. (North American)</h2>
-        </div>
-        <!-- <div class='scroll-container' data-aos="fade-in" data-aos-delay="4000"> -->
-        <div class="scroll-down">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </section>
     <!-- Brief Intro Typomotion -->
     <section id="title" data-aos='fade-in'>
         <h1 class="cover">
@@ -59,21 +43,52 @@
             <span>é</span>
             <span>s</span>
         </h1>
+        <!-- <div class='scroll-container' data-aos="fade-in" data-aos-delay="4000"> -->
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+    <!-- Home Section -->
+    <section id="about">
+        <div class="title-group" style='text-align: left;' data-aos="fade-up" data-aos-duration="3000">
+            <span style="font-family: Kaushan Script, sans-serif; font-size: 5em; margin-bottom: 0;">Why Jeju?</span>
+            <h2 style="text-align: justify;">Jeju is the most beautiful island in Korea where you can see stunning nature, great food, quirky museums and picturesque landscapes. Take your weary heart to Jeju and replenish yourself with a fresh morning coffee and a scenic view of Jeju beach!</h2>
+        </div>
     </section>
     <!-- Jeju Cafe Introduction -->
     <section id="cafes" data-aos='fade-in'>
-        <div class="content">
-            <div class="cafe-textbox">
+        <div class="intro-content">
+            <div class="intro-imgBox">
+                <img src="./img/jeju-island-traditional-house.jpeg" class="intro-jeju-img" alt="jeju-island">
+            </div>
+            <div class="intro-textbox">
                 <h2>That's What <br><span>I like</span></h2>
-                <p id="cafe-text">When you come to Jeju Island, there are many things to look around, but cafes are the
+                <p id="intro-text">When you come to Jeju Island, there are many things to look around, but cafes are the
                     most intriguing part of the journey. There are top 3's that people selected in 2021 and you can see
                     their names and description by clicking on the coffee icon below. If you want just see all the list
                     of popular cafes in Jeju island, you can click on "GO TO WEBSITE"</p>
+                <a id="all-cafe-link" href="https://www.tripadvisor.com/Restaurants-g297885-c8-Jeju_Jeju_Island.html">Go
+                    To
+                    Website</a>
+            </div>
+        </div>
+    </section>
+    <!-- Top 3 Cafes of the year -->
+    <section id="cafes" data-aos='fade-in'>
+        <div class="content">
+            <div class="cafe-textbox">
+                <h2>Top 3 <br><span>People voted</span></h2>
+                <p id="cafe-text">This is a place where you can see the sea Aewol while sipping on your cup of coffee.
+                    It also has a roof-top so you can sit outside and enjoy the scenery. What makes them so special is
+                    the fact that they have their own natural fermentation species for bread so you can taste their
+                    unique flavor of breads.</p>
                 <a id="cafe-link" href="https://www.tripadvisor.com/Restaurants-g297885-c8-Jeju_Jeju_Island.html">Go To
                     Website</a>
             </div>
             <div class="imgBox">
-                <img src="./img/jejuisland.jpeg" class="jeju-cafe-pic" alt="jeju-island">
+                <img src="./img/jeju_cafe_soem_andsseom.jpeg" class="jeju-cafe-pic" alt="jeju-cafe-soem-and-sseom">
             </div>
         </div>
         <ul class="coffee-icon">
@@ -84,6 +99,7 @@
             <li id="cafe3"><img src="./img/coffee.png" onclick="imgSlider('./img/jeju_cafe_groov.jpeg')" alt="coffee"
                     id="coffee"></li>
         </ul>
+    </section>
     <!-- Contact Section -->
     <section id="contact">
         <div class="social-icons">
