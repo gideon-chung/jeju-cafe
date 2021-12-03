@@ -388,7 +388,7 @@ input:checked + .slider::before {
 .content .imgBox img {
   width: 500px;
   border-radius: 8px;
-  box-shadow: 5px 10px 20px var(--on-background);
+  box-shadow: 5px 10px 20px var(--on-primary);
 }
 
 .coffee-icon {
@@ -419,7 +419,7 @@ input:checked + .slider::before {
   background-image: url("./img/jejuisland.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--on-background);
+  background-color: var(--background);
 }
 
 .cover {
