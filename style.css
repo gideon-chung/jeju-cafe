@@ -416,9 +416,11 @@ input:checked + .slider::before {
 
 /* Cover JeJu Cafe Animation */
 #title {
-  background-image: url("./img/jejuisland.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("./img/jejuisland.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: var(--background);
 }
 
