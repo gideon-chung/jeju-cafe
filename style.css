@@ -418,6 +418,8 @@ input:checked + .slider::before {
 #title {
   background-image: url("./img/jejuisland.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--on-background);
 }
 
 .cover {
